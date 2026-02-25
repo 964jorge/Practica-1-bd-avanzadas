@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS estudiantes CASCADE;
+
 --Crear la tabla
 CREATE TABLE estudiantes (
     estudiante_id SERIAL PRIMARY KEY,
@@ -9,10 +11,9 @@ CREATE TABLE estudiantes (
 
 --Cargar los datos
 COPY estudiantes (nombre, codigo_carrera, edad, indice)
-FROM 'C:/postgres_data/estudiantes.csv'
+FROM 'D:/Ficheros Bases de Datos/PL1/estudiantes.csv'
 DELIMITER ';';
 ANALYZE estudiantes;
-
 
 --Locaizar Ficheros:
 --Base Datos
@@ -29,3 +30,4 @@ WHERE relname = 'estudiantes';
 SELECT
     pg_size_pretty(pg_relation_size('estudiantes')) AS solo_tabla,
     pg_size_pretty(pg_total_relation_size('estudiantes')) AS tabla_mas_indices;
+

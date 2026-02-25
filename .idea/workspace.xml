@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5be34f0-fa7c-474f-8d3f-37e4904efff3" name="Changes" comment="Hasta el ejercicio 21, tecnicamente hasta el 19, pero el siguiente que requeria un sql era el 22" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add files via upload" />
+    <MESSAGE value="Hasta el ejercicio 21, tecnicamente hasta el 19, pero el siguiente que requeria un sql era el 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hasta el ejercicio 21, tecnicamente hasta el 19, pero el siguiente que requeria un sql era el 22" />
+  </component>
+</project>

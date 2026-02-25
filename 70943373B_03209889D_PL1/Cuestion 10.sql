@@ -1,0 +1,82 @@
+DROP TABLE IF EXISTS estudiantes3 CASCADE;
+
+--Crear tabla
+CREATE TABLE estudiantes3 (
+    estudiante_id SERIAL,
+    nombre TEXT,
+    codigo_carrera INT,
+    edad INT,
+    indice INT
+) PARTITION BY HASH (codigo_carrera);
+
+--Crear las particiones, son 20 (mod 20)
+CREATE TABLE estudiantes3_p0 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 0);
+
+CREATE TABLE estudiantes3_p1 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 1);
+
+CREATE TABLE estudiantes3_p2 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 2);
+
+CREATE TABLE estudiantes3_p3 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 3);
+
+CREATE TABLE estudiantes3_p4 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 4);
+
+CREATE TABLE estudiantes3_p5 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 5);
+
+CREATE TABLE estudiantes3_p6 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 6);
+
+CREATE TABLE estudiantes3_p7 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 7);
+
+CREATE TABLE estudiantes3_p8 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 8);
+
+CREATE TABLE estudiantes3_p9 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 9);
+
+CREATE TABLE estudiantes3_p10 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 10);
+
+CREATE TABLE estudiantes3_p11 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 11);
+
+CREATE TABLE estudiantes3_p12 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 12);
+
+CREATE TABLE estudiantes3_p13 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 13);
+
+CREATE TABLE estudiantes3_p14 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 14);
+
+CREATE TABLE estudiantes3_p15 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 15);
+
+CREATE TABLE estudiantes3_p16 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 16);
+
+CREATE TABLE estudiantes3_p17 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 17);
+
+CREATE TABLE estudiantes3_p18 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 18);
+
+CREATE TABLE estudiantes3_p19 PARTITION OF estudiantes3
+FOR VALUES WITH (MODULUS 20, REMAINDER 19);
+
+--Cargar los datos
+COPY estudiantes3 (nombre, codigo_carrera, edad, indice)
+FROM 'D:/Ficheros Bases de Datos/PL1/estudiantes.csv'
+DELIMITER ';';
+ANALYZE estudiantes3;
+
+--Comprobar el numero de bloques
+SELECT relname, relpages
+FROM pg_class
+WHERE relname LIKE 'estudiantes3_p%';
