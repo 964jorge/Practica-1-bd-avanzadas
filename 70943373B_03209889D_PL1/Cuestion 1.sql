@@ -11,7 +11,8 @@ CREATE TABLE estudiantes (
 
 --Cargar los datos
 COPY estudiantes (nombre, codigo_carrera, edad, indice)
-FROM 'D:/Ficheros Bases de Datos/PL1/estudiantes.csv'
+FROM 'C:/estudiantes.csv'
+--FROM 'D:/Ficheros Bases de Datos/PL1/estudiantes.csv'
 DELIMITER ';';
 ANALYZE estudiantes;
 

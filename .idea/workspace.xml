@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5be34f0-fa7c-474f-8d3f-37e4904efff3" name="Changes" comment="Hasta el ejercicio 21, tecnicamente hasta el 19, pero el siguiente que requeria un sql era el 22" />
+    <list default="true" id="e5be34f0-fa7c-474f-8d3f-37e4904efff3" name="Changes" comment="Hasta el ejercicio 21, tecnicamente hasta el 19, pero el siguiente que requeria un sql era el 22">
+      <change beforePath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 1.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +16,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
+  <component name="TaskManager">
+    <servers />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add files via upload" />
     <MESSAGE value="Hasta el ejercicio 21, tecnicamente hasta el 19, pero el siguiente que requeria un sql era el 22" />
