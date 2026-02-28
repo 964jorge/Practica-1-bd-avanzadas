@@ -14,7 +14,8 @@ CREATE TABLE estudiantes2 (
 
 --Cargar datos
 COPY estudiantes2(nombre, codigo_carrera, edad, indice)
-FROM 'D:/Ficheros Bases de Datos/PL1/estudiantes.csv'
+FROM 'C:/estudiantes.csv'
+--FROM 'D:/Ficheros Bases de Datos/PL1/estudiantes.csv'
 DELIMITER ';';
 
 --Ordenar por 'indice'

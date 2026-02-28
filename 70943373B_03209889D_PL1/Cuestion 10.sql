@@ -72,7 +72,8 @@ FOR VALUES WITH (MODULUS 20, REMAINDER 19);
 
 --Cargar los datos
 COPY estudiantes3 (nombre, codigo_carrera, edad, indice)
-FROM 'D:/Ficheros Bases de Datos/PL1/estudiantes.csv'
+FROM 'C:/estudiantes.csv'
+--FROM 'D:/Ficheros Bases de Datos/PL1/estudiantes.csv'
 DELIMITER ';';
 ANALYZE estudiantes3;
 

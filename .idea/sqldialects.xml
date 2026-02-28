@@ -2,5 +2,19 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 10.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 11.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 12.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 13.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 15.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 17.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 19.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 3.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 5.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 6.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 7.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 8.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 9.sql" dialect="PostgreSQL" />
   </component>
 </project>
