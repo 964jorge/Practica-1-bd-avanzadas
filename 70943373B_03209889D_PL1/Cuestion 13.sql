@@ -33,3 +33,5 @@ GROUP BY stats.type;
 SELECT *
 FROM bt_page_stats('idx_estudiantes2_id', 5);
 -- live_items -> numero de entradas de esa pagina
+
+

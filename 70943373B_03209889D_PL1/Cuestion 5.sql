@@ -14,6 +14,13 @@ SELECT relpages,
 FROM pg_class
 WHERE relname = 'estudiantes2';
 
+SELECT
+    reltuples::bigint AS filas_estimadas,
+    relpages AS bloques,
+    (reltuples / relpages) AS factor_bloque_medio
+FROM pg_class
+WHERE relname = 'estudiantes2';
+
 
 
 

@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5be34f0-fa7c-474f-8d3f-37e4904efff3" name="Changes" comment="Hasta el ejercicio 21, tecnicamente hasta el 19, pero el siguiente que requeria un sql era el 22">
-      <change afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 25.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 27.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 22.sql" beforeDir="false" afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 22.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 24.sql" beforeDir="false" afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 24.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 13.sql" beforeDir="false" afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 13.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 19.sql" beforeDir="false" afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 19.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 5.sql" beforeDir="false" afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 5.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/70943373B_03209889D_PL1/PL1-BDA_2025-26.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/PL1-BDA_2025-26.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,15 +23,34 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="3ALPtqryHTbWButQBnl9YczrD1a" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Jorge"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5be34f0-fa7c-474f-8d3f-37e4904efff3" name="Changes" comment="Hasta el ejercicio 21, tecnicamente hasta el 19, pero el siguiente que requeria un sql era el 22" />
+      <created>1772369096278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772369096278</updated>
+    </task>
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

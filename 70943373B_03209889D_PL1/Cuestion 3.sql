@@ -25,3 +25,5 @@ SELECT *
 FROM pg_stats
 WHERE tablename = 'estudiantes'
 AND attname = 'indice';
+
+
