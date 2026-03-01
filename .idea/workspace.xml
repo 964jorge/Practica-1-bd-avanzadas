@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5be34f0-fa7c-474f-8d3f-37e4904efff3" name="Changes" comment="Hasta el ejercicio 21, tecnicamente hasta el 19, pero el siguiente que requeria un sql era el 22">
-      <change beforePath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 10.sql" beforeDir="false" afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 10.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 12.sql" beforeDir="false" afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 12.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 22.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 23.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/Cuestion 24.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/70943373B_03209889D_PL1/PL1-BDA_2025-26.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/70943373B_03209889D_PL1/PL1-BDA_2025-26.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
